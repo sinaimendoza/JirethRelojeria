@@ -53,5 +53,6 @@ if($ejecutar){
         </script>
         ';
 }
-mysqli_close_($conexion);
+mysqli_close($conexion);
+
 ?>
